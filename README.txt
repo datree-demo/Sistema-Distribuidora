@@ -1,0 +1,1 @@
+Repositório para a realização da tarefa OLTP de PCS-SGBD.
