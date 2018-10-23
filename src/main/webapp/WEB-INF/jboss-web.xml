@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web xmlns="http://www.jboss.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee https://github.com/jboss/metadata/blob/master/web/src/main/resources/schema/jboss-web_7_1.xsd" 
+           version="7.1">
+
+	<!--  IGNORAR O ERRO! -->
+
+	<!-- Root da aplicação. No caso, está vazio, então as páginas ficam em, por exemplo, localhost:8080/pagina.xhtml . --> 
+	<context-root></context-root>
+
+
+</jboss-web>
