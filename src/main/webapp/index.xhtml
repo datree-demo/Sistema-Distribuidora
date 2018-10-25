@@ -1,19 +1,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core"
+	 xmlns:a4j="http://richfaces.org/a4j"
 	xmlns:p="http://primefaces.org/ui">
 
 <h:head>
 </h:head>
 
 <h:body>
+<h:form>
 	<div
 		style="text-align: center; background-color: yellow; padding: 20px 0px">
-		<h:outputText
+		<h:outputText id = "nome"
 			style="text-align:center; font-size:40px; font-weight:bold; color: green"
-			value="Bem vindo pressa bagaça">
+			value="#{loginController.nome}">
 		</h:outputText>
 	</div>
+	</h:form>
+	<!-- <p:commandButton update="nome" action="#{login.teste()}" value=">:I" style = "font-style:italic; font-family:consola"></p:commandButton>  -->
 	
 	
 
