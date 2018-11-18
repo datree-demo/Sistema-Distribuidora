@@ -1,0 +1,26 @@
+{
+  "name": "introducao_node_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../../Desktop/Exemplo_Final/022/Introducao_ao_Node_JS/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GuiFerreira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv-safe": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.15.2",
+    "express-ejs-layouts": "^2.5.0",
+    "express-http-proxy": "^1.5.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^3.2.0",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.13.0"
+  }
+}
